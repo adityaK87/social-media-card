@@ -28,27 +28,27 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5rem 0;
+    margin: 3rem 0;
     padding: 20px 0px;
   
 }
 
 .img-logo{
-    width: 11rem;
+    width: 9rem;
     clip-path: circle(50% at 50% 50%);
 }
 
 .container > h2{
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .social-link{
     color: var(--font-color);
     text-decoration: none;
-    width: 40vw;
+    width: 35vw;
     padding: 6px;
     font-size: 1.2rem;
-    min-height: 4rem;
+    min-height: 3rem;
     background-color: #8e54e9;
     border: 1px solid black;
     border-radius: 1rem;
@@ -57,20 +57,24 @@ body{
     /* align-items: center; */
     margin: 10px ;
 }
+.social-link:hover{
+    box-shadow: 2px 2px 8px #000;
+}
 
 .social-link >span{
     position: relative;
-    top: 10px;
+    top: 4px;
 }
 
 
 .social-link-anime{
     border-radius: 50%;
     float: left;
+    width: 35px;
     
 }
 .peerlist{
-    width: 48px;
+    width: 35px;
 }
 
 
